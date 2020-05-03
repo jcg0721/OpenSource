@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Turtle</string>
+    <string name="title_func1">Pose</string>
+    <string name="title_func2">Light</string>
+    <string name="title_home">Home</string>
+    <string name="title_func3">Blink</string>
+    <string name="title_func4">Distance</string>
+</resources>
