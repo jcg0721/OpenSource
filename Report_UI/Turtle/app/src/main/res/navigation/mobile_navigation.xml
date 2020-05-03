@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_func1"
+        android:name="com.example.turtle.ui.func1.Func1Fragment"
+        android:label="@string/title_func1"
+        tools:layout="@layout/fragment_func1" />
+
+    <fragment
+        android:id="@+id/navigation_func2"
+        android:name="com.example.turtle.ui.func2.Func2Fragment"
+        android:label="@string/title_func2"
+        tools:layout="@layout/fragment_func2" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.turtle.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_func3"
+        android:name="com.example.turtle.ui.func3.Func3Fragment"
+        android:label="@string/title_func3"
+        tools:layout="@layout/fragment_func3" />
+
+    <fragment
+        android:id="@+id/navigation_func4"
+        android:name="com.example.turtle.ui.func4.Func4Fragment"
+        android:label="@string/title_func4"
+        tools:layout="@layout/fragment_func4" />
+</navigation>
